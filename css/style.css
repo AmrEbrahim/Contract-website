@@ -3,7 +3,8 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 .navbar {
   box-shadow: 1.2px 1.2px 3px #3292a6;
@@ -135,3 +136,7 @@
 
 #contact img {
   border-radius: 50%; }
+
+@media only screen and (max-width: 480px) {
+  #showcase {
+    height: 300px; } }
